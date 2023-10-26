@@ -1,0 +1,10 @@
+header {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+}
+
+#menu li {
+  display: inline;
+}
