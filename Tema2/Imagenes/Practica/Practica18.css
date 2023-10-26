@@ -1,0 +1,14 @@
+#taxomonia, #comportamiento, #alimentacion, #distribucion {
+  color: blueviolet;
+}
+#menu {
+  display: grid;
+  gap: 10px;
+}
+html {
+  background-color: lightskyblue;
+}
+#titulo {
+  text-align: center;
+  background-color: yellow;
+}

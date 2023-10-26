@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE libro>
+
+<libro>
+  <titulo> XML practico </titulo>
+  <autor> Sebastien Lecome </autor>
+  <autor> Thierry Boulanger </autor>
+  <editorial> Edicione Eni </editorial>
+  <isbn> 978-2-7460-4958-1 </isbn>
+  <edicion> 1 </edicion>
+  <paginas> 347 </paginas>
+</libro>

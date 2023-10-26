@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 3.- Diseñar un documento XML válido que permita estructurar la información para
+permitir su gestión informática de los alumnos de un modulo del ciclo formativo ASIR.
+Aplicarlo al módulo de Lenguajes de Marcas y Sistemas de Gestión de Información
+sabiendo que tiene asignadas 4 horas semanales y es de carácter obligatorio. El modulo
+se imparte entre el 15 de septiembre de 2010 y el 30 de junio de 2011. Hay matriculados
+dos alumnos:
+
+
+Ana Fernández Gutiérrez con nif 16965696L teléfono 789654321 email
+ana.fdezgtrrez@hotmail.com, su dirección es C/ El Percebe, 13 de Santander CP
+39302 No hay información sobre las faltas de asistencia o sus notas hasta el
+momento.
+Pepito Grillo con nif 98765432H teléfono 656566555 email yhyh@yahoo.com,
+su dirección es Avd. El Pez, 5 de Suances CP 39401. Su nota es "apto" y no
+tiene faltas de asistencia -->
+
+<!DOCTYPE cicloFormativo>
+
+<cicloFormativo>
+  <nombre>ASIR</nombre>
+  <modulos>
+    <modulo>
+      <nombre>Lenguaje de Marcas y sistemas de gestion de información</nombre>
+      <horasSemana>4</horasSemana>
+      <caracter>Obligatorio</caracter>
+      <fecha>
+        <inicio>15 de septiembre de 2010</inicio>
+        <fin>30 de junio de 2011</fin>
+      </fecha>
+      <alumnosMatriculados>
+        <alumno>
+          <nombre>Ana Fernández Gutiérrez</nombre>
+          <NIF>16965696L</NIF>
+          <telefono>789654321</telefono>
+          <email>ana.fdezgtrrez@hotmail.com</email>
+          <direccion>C/ El Percebe, 13 de Santander</direccion>
+          <CP>39302</CP>
+          <nota>Sin datos</nota>
+          <FaltasAsistencia>Sin datos</FaltasAsistencia>
+        </alumno>
+        <alumno>
+          <nombre>Pepito Grillo</nombre>
+          <NIF>98765432H</NIF>
+          <telefono>656566555</telefono>
+          <email>yhyh@yahoo.com</email>
+          <direccion>Avd. El Pez, 5 de Suances</direccion>
+          <CP>39401</CP>
+          <nota>Apto</nota>
+          <FaltasAsistencia>Ninguna</FaltasAsistencia>
+        </alumno>
+      </alumnosMatriculados>
+    </modulo>
+  </modulos>
+</cicloFormativo>
