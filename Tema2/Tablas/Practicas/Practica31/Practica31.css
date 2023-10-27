@@ -5,6 +5,33 @@ header {
   gap: 500px;
 }
 
+body {
+  display: grid;
+  justify-content: center;
+}
+
+#contenido {
+  display: flex;
+  gap: 15px;
+}
+
+article {
+  width: 850px;
+  text-align: justify;
+}
+
+#aside-menu {
+  font-family: system-ui;
+  font-size: 15px;
+  width: 225px;
+
+}
+
 #menu li {
+  margin-left: 5px;
   display: inline;
+}
+
+#menu li a {
+  text-decoration: none;
 }
