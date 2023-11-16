@@ -1,0 +1,25 @@
+p {
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+}
+td{
+  color: blue;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+}
+h1 {
+  color: red;
+  font-family: Times;
+  font-size: 32px;
+  font-weight: bold;
+}
+h2 {
+  color: green;
+  font-family: Verdana;
+  font-size: 24px;
+  font-weight: bold;
+}

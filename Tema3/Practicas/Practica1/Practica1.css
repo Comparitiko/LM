@@ -1,0 +1,49 @@
+#titulo1 {
+  color: aqua;
+}
+#rojo {
+  color: red;
+}
+#amarillo {
+  color: yellow;
+}
+#titulo2 {
+  color: blue;
+}
+#rojo2 {
+  color: red;
+  text-decoration: underline;
+}
+#azul {
+  color: blue;
+}
+#violet {
+  color: violet;
+}
+#tituloTabla {
+  text-align: center;
+  color: blue;
+}
+.tituloTT1 {
+  color: yellow;
+}
+.tituloTT2 {
+  color: red;
+}
+.campo {
+  color: green;
+}
+#campoR {
+  color: yellow;
+}
+.pVerde {
+  color: yellowgreen;
+}
+#green {
+  color: green;
+}
+table tr td {
+  text-align: center;
+  border: 1px black solid;
+  border-collapse: collapse;
+}

@@ -1,0 +1,12 @@
+body {
+  display: grid;
+}
+.encabezados {
+  color: red;
+}
+.parrafos {
+  font-family: sans-serif;
+}
+#imagen {
+  margin: auto;
+}

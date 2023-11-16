@@ -1,0 +1,24 @@
+p {
+  color: blue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+}
+td{
+  color: black;
+  font-family: Times;
+  font-size: 11px;
+  font-style: italic;
+}
+h1 {
+  color: green;
+  font-family: Arial;
+  font-size: 48px;
+  font-weight: bold;
+}
+h2 {
+  color: red;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+}

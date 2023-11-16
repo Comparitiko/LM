@@ -1,0 +1,14 @@
+table {
+  margin-right: 2cm;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-bottom: 2cm;
+  padding-left: 1pt;
+  padding-right: 2pt;
+  padding-top: 1pt;
+  padding-bottom: 2pt;
+  border: 2cm navy double;
+}
+td {
+  border: 1cm cyan inset;
+}

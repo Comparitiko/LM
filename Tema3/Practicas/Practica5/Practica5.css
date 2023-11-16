@@ -1,0 +1,25 @@
+p {
+  line-height: 12pt;
+  text-decoration: underline;
+  text-justify: distribute-all-lines;
+  text-transform: lowercase;
+  text-indent: 3cm;
+}
+h1{
+  line-height: 36pt;
+  text-decoration: line-through;
+  text-align: right;
+  text-transform: uppercase;
+}
+td {
+  line-height: 24pt;
+  text-align: center;
+  text-transform: capitalize;
+  text-indent: 1cm;
+}
+body {
+  line-height: 8pt;
+  text-align: left;
+  text-transform: lowercase;
+  text-indent: 2cm;
+}
