@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+a:hover {
+  color: yellow;
+  background-color: navy;
+  font-weight: bolder;
+  font-size: 3em;
+  transition: 1s;
+}
+a:visited {
+  color: red;
+}
