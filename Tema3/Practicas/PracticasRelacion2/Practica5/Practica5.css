@@ -1,0 +1,16 @@
+.celeste {
+  background-color: skyblue;
+}
+.verdana {
+  color: blue;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.subrayando {
+  text-decoration: underline;
+}
+.arial {
+  color: green;
+  font-family: Arial;
+  font-size: 30pt;
+}

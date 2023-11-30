@@ -1,0 +1,10 @@
+#div1 {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0%;
+  background-color: #3f3f3f;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
