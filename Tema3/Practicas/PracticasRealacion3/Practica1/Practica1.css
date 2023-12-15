@@ -1,33 +1,29 @@
 #contenido {
-  background-color: #000;
+  margin: auto;
+  background-color: black;
 }
 #naranja {
   width: 150px;
   height: 450px;
   background-color: orangered;
-  float: left;
 }
 #gris {
   width: 150px;
   height: 300px;
   background-color: gray;
-  float: left;
 }
 #azul {
   width: 150px;
   height: 150px;
-  background-color: blue;
-  float: left;
+  background-color: darkcyan;
 }
 #amarillo {
   width: 150px;
   height: 150px;
   background-color: yellow;
-  float: left;
 }
 #rosa {
   width: 150px;
   height: 300px;
   background-color: pink;
-  float: left;
 }
