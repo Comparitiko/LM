@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+aside {
+  float: right;
+  width: 25%;
+}
+article {
+  width: 75%;
+}
+#contenidosLibro {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+#contenidosLibro > li {
+  width: 33%;
+}

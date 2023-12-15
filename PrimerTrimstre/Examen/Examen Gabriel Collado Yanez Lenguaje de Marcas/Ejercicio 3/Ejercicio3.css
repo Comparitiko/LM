@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  font-size: 1.5em;
+  gap: 10px;
+  list-style: none;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+  background-color: black;
+}
+a:hover {
+  color: white;
+  background-color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: orange;
+}
+a:visited {
+  color: darkgreen;
+}
+a:focus {
+  color: blue;
+  text-decoration: underline;
+}

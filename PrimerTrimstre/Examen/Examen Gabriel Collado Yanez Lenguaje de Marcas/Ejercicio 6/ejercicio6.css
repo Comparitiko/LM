@@ -1,0 +1,50 @@
+body {
+  padding: 25px;
+  background-color: lightgreen;
+  justify-content: center;
+}
+#titulo {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  text-shadow: 10pt black;
+}
+.lineaSeparacion {
+  margin: 5px;
+  position: relative;
+  width: 30%;
+  left: 35%;
+  border-top: 5px solid darkgreen;
+}
+#ghandi {
+  float: left;
+  gap: 5px;
+}
+p {
+  text-justify: distribute;
+}
+#king {
+  float: right;
+}
+
+footer {
+  border-top: 5px darkgreen solid;
+}
+
+footer > p {
+  font-size: 15px;
+}
+
+.rojo {
+  color: red;
+  text-decoration: underline 4px;
+}
+
+.azul {
+  color: blue;
+  text-transform: uppercase;
+}
+.dia {
+  padding: 5px;
+  border: .5px black solid;
+}
