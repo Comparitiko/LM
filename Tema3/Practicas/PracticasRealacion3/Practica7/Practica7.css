@@ -1,0 +1,26 @@
+body {
+  border: 1px solid black;
+  padding: 50px;
+}
+fieldset {
+  display: flex;
+}
+p {
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline dotted;
+  border: 1px black solid;
+}
+#asterisco {
+  color: red;
+  font-size: 1.5em;
+}
+section:hover {
+  padding: 5px;
+  background-color: orange;
+  transition: 1s;
+}
+#direccion:focus {
+  border: 1px solid salmon;
+  background-color: red;
+}
