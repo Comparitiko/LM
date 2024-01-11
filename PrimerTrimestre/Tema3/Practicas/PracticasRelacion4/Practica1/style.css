@@ -1,0 +1,66 @@
+html {
+  font-family: Arial, sans-serif;
+  background-color: #F3F2ED;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/fondo.jpg);
+}
+
+#logo {
+  width: 300px;
+}
+
+nav {
+  width: 100%;
+  justify-content: center;
+  background-color: #ab2a3e;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+main {
+  display: flex;
+  gap: 50px;
+}
+
+#extra {
+  width: 200px;
+}
+
+#contenido {
+  width: 1000px;
+}
+
+#primero {
+  color: red;
+  text-decoration: underline overline;
+}
+
+footer {
+  height: 50px;
+  color: white;
+  background-color: #ab2a3e;
+  text-align: center;
+}
+
