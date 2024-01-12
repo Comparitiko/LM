@@ -11,10 +11,6 @@ header {
   background-image: url(./img/fondo.jpg);
 }
 
-#logo {
-  width: 300px;
-}
-
 nav {
   width: 100%;
   justify-content: center;
@@ -24,37 +20,78 @@ nav {
 #menu {
   display: flex;
   list-style: none;
+  justify-content: center;
   gap: 200px;
 }
 
-a {
+header a {
   text-decoration: none;
 }
 
-a:link {
+header a:link {
   color: white;
 }
 
-a:visited {
+header a:visited {
   color: white;
+}
+
+#extra a:hover {
+  background-color: #ab2a3e;
 }
 
 main {
   display: flex;
   gap: 50px;
+  width: 100%;
+  padding: 50px 25px;
+}
+
+#imagenes {
+  display: grid;
+}
+
+#imagenes img {
+  width: 85px;
+}
+
+#zozor {
+  float: right;
+}
+
+article p {
+  text-justify: justify;
 }
 
 #extra {
-  width: 200px;
+  background-color: #f5f5dc;
+  width: 35%;
+  padding: 50px;
+  display: grid;
 }
 
-#contenido {
-  width: 1000px;
+figure {
+  display: grid;
+}
+
+.extraImg {
+  width: 200px;
+  float: right;
+}
+
+#contenido {  
+  width: 50%;
 }
 
 #primero {
   color: red;
   text-decoration: underline overline;
+}
+
+#final {
+  background-color: #ab2a3e;
+  width: 100%;
+  color: white;
 }
 
 footer {
