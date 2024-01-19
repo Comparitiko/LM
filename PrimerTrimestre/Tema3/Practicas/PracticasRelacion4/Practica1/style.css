@@ -1,6 +1,12 @@
 html {
   font-family: Arial, sans-serif;
   background-color: #F3F2ED;
+  display: grid;
+  justify-content: center;
+}
+
+body {
+  width: 1280px;
 }
 
 header {
@@ -12,6 +18,9 @@ header {
 }
 
 nav {
+  position: relative;
+  height: 50px;
+  bottom: 10px;
   width: 100%;
   justify-content: center;
   background-color: #ab2a3e;
