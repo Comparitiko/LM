@@ -5,15 +5,8 @@ html {
 
 body {
   background-color: white;
-}
-
-body {
   margin: 0 auto;
-  width: 1280px;
-}
-
-header {
-
+  width: 960px;
 }
 
 nav {
@@ -29,18 +22,78 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 18px;
 }
 
 main {
+  margin: 20px;
   display: flex;
   gap: 10px;
 }
 
 aside {
-  background-color: aqua;
+  background-color: slategray;
   width: 30%;
+  color: white;
 }
 
 section {
   width: 70%;
+  text-align: justify;
+}
+
+#headerTitle {
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
+
+#headerTitle a {
+  text-decoration: none;
+  color: orange;
+  font-weight: 400;
+}
+
+#subheader {
+  margin-left: 20px;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.mainTitle {
+  text-decoration: none;
+  color: slateblue;
+}
+
+#linktexto {
+  text-decoration: none;
+  color: orange;
+}
+
+aside li {
+  color: black;
+  margin-left: 5px;
+  list-style: square;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+}
+
+.asidetitle {
+  font-size: 16px;
+  background-color: darkslategray;
+  padding: 5px;
+}
+
+footer {
+  background-color: slategray;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
