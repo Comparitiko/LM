@@ -13,28 +13,78 @@
     <h1>Recogida de datos</h1>
   </header>
   <form action="">
-    <fieldset>
+    <fieldset class="fieldsetGrid">
       <legend>A. Datos Personales</legend>
-      <label for="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" required autofocus>
-      <label for="apellido1">Apellido 1</label>
-      <input type="text" name="apellido1" id="apellido1" required>
-      <label for="apellido1">Apellido 2</label>
-      <input type="text" name="apellido2" id="apellido2" required>
-      <label for="telf">Telefono</label>
-      <input type="tel" name="telefono" id="telefono">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required>
-      <label for="url">URL</label>
-      <input type="url" name="url" id="url" placeholder="Escribe la URL de
+      <label for="nombre">1. Nombre
+        <input type="text" name="nombre" id="nombre" required autofocus>
+      </label>
+      <label for="apellido1">2. Apellido 1
+        <input type="text" name="apellido1" id="apellido1" required>
+      </label>
+      <label for="apellido1">3. Apellido 2
+        <input type="text" name="apellido2" id="apellido2" required>
+      </label>
+      <label for="telf">4. Teléfono
+        <input type="tel" name="telefono" id="telefono">
+      </label>
+      <label for="email">5. Email
+        <input type="email" name="email" id="email" required>
+      </label>
+      <label for="url">6. URL
+        <input type="url" name="url" id="url" placeholder="Escribe la URL de
     tu página web personal">
-      <label for="localidad">Localidad</label>
-      <select name="localidad" id="localidad">
-        <option value="cuevas">Cuevas del Almanzora</option>
-        <option value="vera">Vera</option>
-        <option value="garrucha">Garrucha</option>
-      </select>
+      </label>
+      <label for="localidad">7. Localidad
+        <select name="localidad" id="localidad">
+          <option value="cuevas">Cuevas del Almanzora</option>
+          <option value="vera">Vera</option>
+          <option value="garrucha">Garrucha</option>
+        </select>
+      </label>
     </fieldset>
+    <fieldset class="fieldsetGrid">
+      <legend>B. Datos del pedido</legend>
+      <label for="fecha"> 6. Fecha y hora
+        <input type="datetime-local" name="fecha" id="fecha">
+      </label>
+      <label for="numero">7. Número
+        <input type="number" min="-1" max="10" id="numero" name="numero">
+      </label>
+      <label for="color">8. Color del pedido
+        <input type="color" name="color" id="color">
+      </label>
+    </fieldset>
+    <fieldset id="datosEntrega">
+      <legend>C. Datos de entrega</legend>
+      <section>
+        <label for="fecha-entrega">9. Fecha de entrega
+          <input type="date" name="fecha-entrega" id="fecha-entrega">
+        </label>
+        <label for="hora">10. Hora
+          <input type="time" name="hora" id="hora">
+        </label>
+      </section>
+      <label for="documentacion">11. Documentación presentada:
+        <input type="checkbox" name="documentacion" id="documentacion" value="factura" class="roundedCheckBox"> Factura
+        <input type="checkbox" name="documentacion" id="documentacion" value="certificado"
+          class="roundedCheckBox">Certificado
+      </label>
+      <label for="recogida">12. Recogida:
+        <input type="checkbox" name="recogida" id="recogida" value="tienda" class="roundedCheckBox"> Tienda
+        <input type="checkbox" name="recogida" id="recogida" value="casa" class="roundedCheckBox"> Casa
+      </label>
+    </fieldset>
+    <fieldset id="masInfo">
+      <legend>D. Más información</legend>
+      <label for="buscar">13. Busca aquí
+        <input type="search" name="buscar" id="buscar">
+        <button type="submit">Buscar</button>
+      </label>
+      <label for="comentarios">14. Otros comentarios
+        <textarea name="comentarios" id="comentarios" placeholder="Introduce tus comentarios"></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" name="enviar" id="enviar">
   </form>
 </body>
 
