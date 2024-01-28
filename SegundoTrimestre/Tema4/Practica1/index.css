@@ -6,6 +6,7 @@ html {
 body {
   margin: 0 auto;
   width: 960px;
+  opacity: .8;
 }
 
 header {
@@ -23,4 +24,13 @@ header h1 {
 form {
   margin-top: 50px;
   background-color: white;
+}
+
+legend {
+  background-color: orange;
+}
+
+fieldset {
+  border: 0;
+  border-top: 4px orangered solid;
 }
