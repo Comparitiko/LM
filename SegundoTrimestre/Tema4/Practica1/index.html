@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
   <header>
     <h1>Recogida de datos</h1>
   </header>
-  <form action="">
+  <form method="get" action="">
     <fieldset class="fieldsetGrid">
       <legend>A. Datos Personales</legend>
       <label for="nombre">1. Nombre
@@ -80,11 +80,11 @@
         <input type="search" name="buscar" id="buscar">
         <button type="submit">Buscar</button>
       </label>
-      <label for="comentarios">14. Otros comentarios
-        <textarea name="comentarios" id="comentarios" placeholder="Introduce tus comentarios"></textarea>
+      <label id="comments" for="comentarios">14. Otros comentarios
+        <textarea name="comentarios" id="comentarios" placeholder="Introduce tus comentarios" rows="5"></textarea>
       </label>
     </fieldset>
-    <input type="submit" name="enviar" id="enviar">
+    <input id="submitBtn" type="submit" name="enviar" id="enviar">
   </form>
 </body>
 

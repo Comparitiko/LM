@@ -30,12 +30,13 @@ form {
 
 legend {
   border: 2px solid orange;
-  background-color: #ffa500 5;
+  background-color: rgba(100%, 64%, 0%, .4);
 }
 
 fieldset {
   border: 0;
   border-top: 4px orangered solid;
+  padding: 20px;
 }
 
 .fieldsetGrid {
@@ -59,8 +60,19 @@ fieldset {
   gap: 40px;
 }
 
-.roundedCheckBox {
+#submitBtn {
+  background-color: orangered;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 200px;
   border: 0;
-  border: 1px solid gray;
-  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 33%;
+  padding: 5px;
+}
+
+#comments {
+  display: grid;
+  gap: 10px;
 }
