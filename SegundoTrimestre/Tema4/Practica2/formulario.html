@@ -19,19 +19,19 @@
 				<legend>Datos personales(*)</legend>
 				<label for="apellidos">
 					Apellidos:
-					<input type="text" name="apellidos">
+					<input type="text" name="apellidos" name="apellidos" id="apellidos">
 				</label>
 				<label for="nombre">
 					Nombre:
-					<input type="text" name="nombre">
+					<input type="text" name="nombre" name="nombre" id="nombre">
 				</label>
 				<label for="dni">
 					DNI:
-					<input type="text" name="dni">
+					<input type="text" name="dni" name="dni" id="dni">
 				</label>
 				<label for="domicilio">
 					Domicilio(Calla, plaza, número):
-					<input type="text" name="domicilio">
+					<input type="text" name="domicilio" name="domicilio" id="domicilio">
 				</label>
 				<label for="provincia">
 					Provincia:
@@ -56,20 +56,124 @@
 				</label>
 				<label for="fechaNac">
 					Fecha Nac.
-					<input type="date">
+					<input type="date" name="fechaNac" id="fechaNac">
 				</label>
 			</fieldset>
+
 			<fieldset>
 				<legend>Requisitos de acceso</legend>
 				<label for="directo">
-					<input type="radio" name="tipoAcceso" id="directo" value="directo"> Directo
+					<input type="radio" name="tipoAcceso" id="directo" value="directo" checked> Directo
 				</label>
 				<ul>
-					<label for=""></label>
+					<section>
+						<label for="bachillerato">
+							<input type="radio" name="tipoDirecto" id="bachillerato" value="bachillerato">
+							Bachillerato Logse.
+						</label>
+						<label for="modalidad">
+							Modalidad: <input type="text" name="modalidad" id="modalidad" placeholder="Modalidad de bachiller">
+						</label>
+					</section>
+					<label for="gradoM">
+						<input type="radio" name="tipoDirecto" id="gradoM">
+						Grado Medio
+					</label>
+					<section>
+						<label for="otro">
+							<input type="radio" name="tipoDirecto" id="otro" checked>
+							Otros
+						</label>
+						<label for="otrosEspec">
+							(especifique):
+							<input type="text" name="Otros" id="otrosEspec">
+						</label>
+					</section>
 				</ul>
 				<label for="prueba">
 					<input type="radio" name="tipoAcceso" id="prueba" value="prueba"> Mediante prueba
 				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Solicitud</legend>
+				<label for="ciclo">
+					Ciclo Formativo
+					<select name="ciclo" id="ciclo">
+						<option value="">selecciona</option>
+						<option value="dam">CFGS Desarrollo Aplicaciones Multiplataforma</option>
+						<option value="daw">CFGS Desarrollo Aplicaciones Web</option>
+						<option value="prf">CFGS Prevención Riesgos Profesionales</option>
+					</select>
+				</label>
+				<p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:</p>
+				<section>
+					<h4>Ciclos formativos:</h4>
+					<input type="text" name="ciclo" id="ciclo">
+					<input type="text" name="ciclo2" id="ciclo2">
+				</section>
+				<section>
+					<h4>Centros:</h4>
+					<input type="text" name="centro" id="centro">
+					<input type="text" name="centro2" id="centro2">
+				</section>
+				<section>
+					<h4>Localidad:</h4>
+					<input type="text" name="localidad" id="localidad">
+					<input type="text" name="localidad2" id="localidad2">
+				</section>
+			</fieldset>
+
+			<fieldset>
+				<legend>Documentación presentada</legend>
+				<label for="fotocopia">
+					<input type="checkbox" name="fotocopia" id="fotocopia">
+					Fotocopia DNI
+				</label>
+				<label for="certificado">
+					<input type="checkbox" name="certificado" id="certificado">
+					Certificado
+				</label>
+				<label for="otros">
+					<input type="checkbox" name="otros" id="otros">
+					Otros documentos
+					<label for="especifique">
+						(especifique)
+						<input type="text" name="especifique" id="especifique">
+					</label>
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Comunicación</legend>
+				<p>De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
+					Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley
+					4/1999, de 13 de enero,se informa que:</p>
+				<ul>
+					<li>Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya tenido
+						entrada en el registro del órgano
+						competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.</li>
+					<li>El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y
+						notificado la resolución
+						correspondiente, es desestimatorio de la solicitud.El efecto que producirá el silencio administrativo si
+						transcurre el plazo sin que se haya dictado y notificado la resolución
+						correspondiente, es desestimatorio de la solicitud.</li>
+				</ul>
+				<input type="text" name="dia" id="dia">
+				<span>,</span>
+				<input type="number" name="numDia" id="numDia">
+				<input type="text" name="mes" id="mes">
+				<select name="anio" id="anio">
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+				<p>La persona solicitante,</p>
+				<h4>Firma</h4>
+				<textarea name="firma" id="firma" cols="20" rows="12"
+					placeholder="Coloca aquí tu firma electrónica visible"></textarea>
+				<input type="submit" name="submit" id="submit">
 			</fieldset>
 		</form>
 	</main>

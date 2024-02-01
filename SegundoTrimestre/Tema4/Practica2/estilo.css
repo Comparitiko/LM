@@ -23,6 +23,12 @@ main {
 
 form {
   width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+fieldset {
+  border: 0;
 }
 
 footer {
