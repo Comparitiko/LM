@@ -31,6 +31,58 @@ fieldset {
   border: 0;
 }
 
+legend {
+  background-color: white;
+}
+
+label {
+  font-size: .90rem;
+}
+
+#datosPersonales {
+  background-color: #a1a1a1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+#requisitosAcceso {
+  background-color: wheat;
+}
+
+#solicitud {
+  background-color: rgb(39, 148, 148);
+  display: flex;
+  flex-direction: column;
+}
+
+#documentacion {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+}
+#comunicacion {
+  background-color: rgb(197, 151, 37);
+}
+
+#datosPersonales label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#solicitud div {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+#solicitud section {
+  display: grid;
+  gap: .5rem;
+}
+
 footer {
   width: 50%;
   display: flex;
@@ -44,6 +96,20 @@ footer p {
   font-size: .8rem;
   border: 4px dotted blue;
   font-weight: bolder;
+}
+
+#submit {
+  width: 8rem;
+  font-size: 1.05rem;
+  padding: .3rem;
+}
+
+#submitBtn {
+
+}
+
+#btn-text-area {
+  
 }
 
 footer h4 {

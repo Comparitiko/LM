@@ -15,7 +15,7 @@
 	</header>
 	<main>
 		<form action="">
-			<fieldset>
+			<fieldset id="datosPersonales">
 				<legend>Datos personales(*)</legend>
 				<label for="apellidos">
 					Apellidos:
@@ -60,7 +60,7 @@
 				</label>
 			</fieldset>
 
-			<fieldset>
+			<fieldset id="requisitosAcceso">
 				<legend>Requisitos de acceso</legend>
 				<label for="directo">
 					<input type="radio" name="tipoAcceso" id="directo" value="directo" checked> Directo
@@ -95,7 +95,7 @@
 				</label>
 			</fieldset>
 
-			<fieldset>
+			<fieldset id="solicitud">
 				<legend>Solicitud</legend>
 				<label for="ciclo">
 					Ciclo Formativo
@@ -107,44 +107,50 @@
 					</select>
 				</label>
 				<p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:</p>
-				<section>
-					<h4>Ciclos formativos:</h4>
-					<input type="text" name="ciclo" id="ciclo">
-					<input type="text" name="ciclo2" id="ciclo2">
-				</section>
-				<section>
-					<h4>Centros:</h4>
-					<input type="text" name="centro" id="centro">
-					<input type="text" name="centro2" id="centro2">
-				</section>
-				<section>
-					<h4>Localidad:</h4>
-					<input type="text" name="localidad" id="localidad">
-					<input type="text" name="localidad2" id="localidad2">
-				</section>
+				<div>
+					<section>
+						<h4>Ciclos formativos:</h4>
+						<input type="text" name="ciclo" id="ciclo">
+						<input type="text" name="ciclo2" id="ciclo2">
+					</section>
+					<section>
+						<h4>Centros:</h4>
+						<input type="text" name="centro" id="centro">
+						<input type="text" name="centro2" id="centro2">
+					</section>
+					<section>
+						<h4>Localidad:</h4>
+						<input type="text" name="localidad" id="localidad">
+						<input type="text" name="localidad2" id="localidad2">
+					</section>
+				</div>
 			</fieldset>
 
-			<fieldset>
+			<fieldset id="documentacion">
 				<legend>Documentación presentada</legend>
-				<label for="fotocopia">
-					<input type="checkbox" name="fotocopia" id="fotocopia">
-					Fotocopia DNI
-				</label>
-				<label for="certificado">
-					<input type="checkbox" name="certificado" id="certificado">
-					Certificado
-				</label>
-				<label for="otros">
-					<input type="checkbox" name="otros" id="otros">
-					Otros documentos
-					<label for="especifique">
-						(especifique)
-						<input type="text" name="especifique" id="especifique">
+				<section>
+					<label for="fotocopia">
+						<input type="checkbox" name="fotocopia" id="fotocopia" checked>
+						Fotocopia DNI
 					</label>
-				</label>
+					<label for="certificado">
+						<input type="checkbox" name="certificado" id="certificado" checked>
+						Certificado
+					</label>
+				</section>
+				<section>
+					<label for="otros">
+						<input type="checkbox" name="otros" id="otros" checked>
+						Otros documentos
+						<label for="especifique">
+							(especifique)
+							<input type="text" name="especifique" id="especifique">
+						</label>
+					</label>
+				</section>
 			</fieldset>
 
-			<fieldset>
+			<fieldset id="comunicacion">
 				<legend>Comunicación</legend>
 				<p>De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
 					Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley
@@ -171,9 +177,11 @@
 				</select>
 				<p>La persona solicitante,</p>
 				<h4>Firma</h4>
-				<textarea name="firma" id="firma" cols="20" rows="12"
-					placeholder="Coloca aquí tu firma electrónica visible"></textarea>
-				<input type="submit" name="submit" id="submit">
+				<section id="btn-text-area">
+					<textarea name="firma" id="firma" cols="20" rows="12"
+						placeholder="Coloca aquí tu firma electrónica visible"></textarea>
+					<input type="submit" name="submit" id="submit">
+				</section>
 			</fieldset>
 		</form>
 	</main>
