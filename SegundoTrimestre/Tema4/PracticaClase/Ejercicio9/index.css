@@ -57,3 +57,77 @@
   font-size: 80px;
   font-family: 'Luckiest Guy', cursive;
 }
+
+#g {
+  color: #fff;
+  text-shadow:
+  -2px -2px 0 #000,
+  1px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+  font-size: 100px;
+  font-family: 'Boogaloo', cursive;
+}
+
+#h {
+  text-shadow:
+  9px 2px 0 rgba(0, 255, 255, 0.5),
+  -6px -1px 1px rgba(255, 0, 0, 0.4);
+  color: #2A0A12;
+  font-size: 80px;
+  font-family: 'Special Elite', cursive;
+}
+
+#i {
+  color: #DF0101;
+  margin: 10px;
+  padding: 40px 0 10px;
+  text-align: center;
+  text-shadow:
+  0 0 4px #fff,
+  0 -5px 4px #ff3,
+  2px -10px 6px #fd3,
+  -2px -15px 11px #f80,
+  2px -25px 18px #f20;
+  font-size: 90px;
+  font-family: 'New Rocker', cursive;
+}
+
+#j {
+  color: transparent;
+  text-shadow: #81DAF5 0 0 12px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Chango', cursive;
+}
+
+#k {
+  color: #fcc90f;
+  text-shadow:
+  -2px -2px 0 #29296e,
+  1px -2px 0 #29296e,
+  -2px 2px 0 #29296e,
+  2px 2px 0 #29296e,
+  1px 1px #e60602,
+  2px 2px #e60602,
+  3px 3px #29296e,
+  4px 4px #29296e,
+  5px 5px #29296e,
+  6px 6px #29296e,
+  7px 7px #29296e,
+  8px 8px #29296e,
+  9px 9px #29296e,
+  10px 10px #29296e,
+  11px 11px #29296e,
+  12px 12px #29296e,
+  13px 13px #29296e,
+  14px 14px #29296e,
+  15px 15px #29296e,
+  16px 16px #29296e,
+  17px 17px #29296e,
+  18px 18px #29296e,
+  19px 19px #29296e,
+  20px 20px #29296e;
+  font-size: 90px;
+  font-family: 'Henny Penny', cursive;
+}
