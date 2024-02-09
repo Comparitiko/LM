@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  background-image: url(https://img.freepik.com/foto-gratis/hermosa-foto-paisaje-natural-otono_181624-25934.jpg?size=626&ext=jpg);
+}
+
+h1 {
+  margin: 0 auto;
+  width: 20rem;
+  text-align: center;
+  background-color: white;
+  opacity: 0.5;
+  margin-top: 20rem
+}
