@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #3f3f3f;
+  width: 100vw;
+  background-image: conic-gradient();
+}
+
+main {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 10rem;
+}
+
+button {
+  width: 400px;
+  height: 400px;
+  margin-left: 14rem;
+  background-image: linear-gradient(to right, blue, red);
+  border: 2px solid black;
+  box-shadow: 2px 3px 2px 3px black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: repeating-radial-gradient(black, #09f);
+}

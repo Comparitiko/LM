@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  background-color: #3f3f3f;
+  color: white;
+  padding-top: 5rem;
+}
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+
+table, tr, td {
+  border: 1px solid #8f8f8f;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.pro {
+  background-color: red;
+}
+
+.lm {
+ background-color: #09f;
+}
+
+.ed {
+  background-color: green;
+}
+
+.ssi {
+  background-color: maroon;
+}
+
+.fol {
+  background-color: slateblue;
+}
+
+.bd {
+  background-color: blueviolet;
+}
