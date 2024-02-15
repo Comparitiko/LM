@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100dvw;
+  gap: 3px;
+}
+
+li {
+  list-style: none;
+  border: 1px solid gray;
+  background-color: rgba(123,198,199,0.8);
+}
+
+a {
+  text-decoration: none;
+}

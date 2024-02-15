@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  gap: 2px;
+}
+aside {
+  padding: 12px 24px;
+  background-color: lightseagreen;
+  flex: 1;
+  height: 100dvh;
+}
+
+main {
+  padding: 12px 24px;
+  background-color: greenyellow;
+  flex: 4;
+  height: 100dvh;
+}

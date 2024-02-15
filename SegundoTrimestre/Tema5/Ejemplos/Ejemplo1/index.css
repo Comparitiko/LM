@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3f3f3f;
+}
+
+main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+div {
+  padding: 1.5rem;
+  border: 1px solid black;
+  flex: 1 400px;
+  text-align: center;
+}
+
+#s1 {
+  order: 6;
+  background-color: red;
+}
+
+#s2 {
+  background-color: blue;
+}
+
+#s3 {
+  background-color: green;
+}
+
+#s4 {
+  background-color: lightcoral;
+  order: 1;
+}
+
+#s5 {
+  background-color: slateblue;
+}
+
+#s6 {
+  background-color: goldenrod;
+  order: -1;
+}

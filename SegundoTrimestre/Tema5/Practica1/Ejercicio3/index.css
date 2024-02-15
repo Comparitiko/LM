@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  gap: 3px;
+}
+
+li {
+  list-style: none;
+  background-color: rgba(123,198,199,0.8);
+  flex: 1;
+}
