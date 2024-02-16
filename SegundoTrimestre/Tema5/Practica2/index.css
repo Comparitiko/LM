@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/bodybkg.gif);
+}
+
+main {
+  margin: 0 auto;
+  width: 60dvw;
+  min-height: 100dvh;
+}
+
+header {
+
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section ul li {
+  flex: 1 200px;
+}
+
+footer {
+  display: flex;
+}
