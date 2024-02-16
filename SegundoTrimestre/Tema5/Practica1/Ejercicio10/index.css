@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  width: 100dvw;
+  min-height: 100dvh;
+}
+
+header {
+  background-color: orange;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > h1 {
+  text-align: center;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  height: 640px;
+}
+
+aside {
+  flex: 1;
+  padding: 24px;
+  background-color: slategrey;
+  color: white;
+}
+
+section {
+  flex: 2;
+  padding: 24px;
+}
