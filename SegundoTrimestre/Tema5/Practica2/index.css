@@ -5,12 +5,13 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background-image: url(./images/bodybkg.gif);
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin: 1.5rem auto;
   width: 60dvw;
   min-height: 100dvh;
@@ -32,11 +33,40 @@ header ul {
   background-color: rgb(69, 31, 3);
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 3rem;
   align-items: center;
   list-style: none;
   gap: 5rem;
-  height: 2.5rem;
+  min-height: 2.5rem;
+}
+
+header ul li {
+  flex: 1;
+}
+
+#texto {
+  width: 100%;
+  min-height: 15rem;
+  border-radius: 10px;
+  background-image: url(./images/introimage.png);
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+#texto h2 {
+  color: white;
+  margin: 2.5rem 0 0 2.5rem;
+}
+
+#texto p {
+  margin: 2.5rem 1rem 1rem 2.5rem;
+  text-wrap: pretty;
+  max-width: 20rem ;
+}
+
+header article img {
+  width: 100%;
 }
 
 header a {
@@ -48,14 +78,22 @@ header a:hover {
   color: goldenrod;
 }
 
-section ul {
+section {
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-section ul li {
-  flex: 1 200px;
+section article {
+  flex: 1 300px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #d6a965;
 }
 
 footer {
