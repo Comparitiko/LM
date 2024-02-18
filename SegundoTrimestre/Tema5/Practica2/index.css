@@ -62,7 +62,7 @@ header ul li {
 #texto p {
   margin: 2.5rem 1rem 1rem 2.5rem;
   text-wrap: pretty;
-  max-width: 20rem ;
+  max-width: 20rem;
 }
 
 header article img {
@@ -98,4 +98,20 @@ section article {
 
 footer {
   display: flex;
+  gap: 1.5rem;
+  padding: 20px 10px 30px;
+  border-radius: 10px;
+  background-color: rgb(69, 31, 3);
+  color: white;
+}
+
+footer article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-wrap: pretty;
+}
+
+footer a {
+  color: gray;
 }
