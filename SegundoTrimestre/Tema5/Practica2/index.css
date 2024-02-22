@@ -45,28 +45,32 @@ header ul li {
   flex: 1;
 }
 
-#texto {
+article {
+  position: relative;
   width: 100%;
   min-height: 15rem;
   border-radius: 10px;
-  background-image: url(./images/introimage.png);
   background-size: 100% 100%;
-  object-fit: cover;
 }
 
-#texto h2 {
+header article figure img {
+  width: 100%;
+}
+
+header article h2 {
+  position: absolute;
+  top: 5%;
+  left: 2%;
   color: white;
-  margin: 2.5rem 0 0 2.5rem;
+  max-width: 100%;
 }
 
-#texto p {
-  margin: 2.5rem 1rem 1rem 2.5rem;
+header article p {
+  position: absolute;
+  top: 25%;
+  left: 2%;
   text-wrap: pretty;
   max-width: 20rem;
-}
-
-header article img {
-  width: 100%;
 }
 
 header a {
@@ -80,6 +84,7 @@ header a:hover {
 
 section {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
   background-color: white;
