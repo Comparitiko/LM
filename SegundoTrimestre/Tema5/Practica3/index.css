@@ -80,13 +80,27 @@ header ul li a:hover {
   flex-wrap: wrap;
   gap: 25px;
   border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px;
 }
 
 .noticia {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+  color: gray;
+}
+
+.noticia p {
+  font-size: 18px;
+  width: 100%;
+  text-wrap: pretty;
+}
+
+.noticia img {
+  box-sizing: content-box;
+  border: 10px solid white;
 }
 
 .readMore {
@@ -101,6 +115,30 @@ header ul li a:hover {
 #latestArticle {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+  line-height: 1.5em;
+  color: gray;
+}
+
+#divLatestArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contenidoLatestArticle {
+  flex: 1;
+}
+
+#segundoParrafo {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 20px;
+}
+
+#fecha {
+  color: red;
+  font-weight: 300;
 }
 
 footer {
@@ -120,4 +158,8 @@ footer {
 
 #footerText {
   order: 1;
+}
+
+#footerText a {
+  color: white;
 }
