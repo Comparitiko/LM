@@ -84,7 +84,7 @@ figure img {
 #noticias article {
   display: flex;
   flex-direction: column;
-  flex: 1 350px;
+  flex: 1 300px;
   gap: 15px;
   line-height: 25px;
 }
@@ -118,7 +118,7 @@ figure img {
   text-decoration: none;
   color: white;
   background-color: #e95d3c;
-  width: 85px;
+  width: fit-content;
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -161,6 +161,12 @@ figure img {
 
 #parteBajaA1 a {
   color: red;
+}
+
+#moreDetails {
+  width: fit-content;
+  text-decoration: none;
+  color: white;
 }
 
 footer {
