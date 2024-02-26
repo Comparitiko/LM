@@ -133,11 +133,8 @@ figure img {
   margin: 60px 80px;
 }
 
-#parteBaja article {
-  flex: 1;
-}
-
 #parteBajaA1 {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -159,14 +156,102 @@ figure img {
   font-weight: 200;
 }
 
-#parteBajaA1 a {
+#parteBajaA1 p a {
   color: red;
 }
 
 #moreDetails {
+  color: white;
   width: fit-content;
   text-decoration: none;
-  color: white;
+  background-color: #e95d3c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#parteBajaA2 {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+#parteBajaA2Izq {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#parteBajaA2Izq h2 {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#parteBajaA2Izq ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#parteBajaA2Izq ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  padding: 20px 0;
+}
+
+.bBajo {
+  border-bottom: 1px solid slategray;
+}
+
+.img {
+  flex: 1;
+  width: fit-content;
+}
+
+.texto {
+  flex: 1.5;
+}
+
+#parteBajaA2Der {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#parteBajaA2Der article {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#parteBajaA2Der article h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+#parteBajaA2Der article ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#parteBajaA2Der article ul li {
+  list-style: none;
+  padding: 0 0 25px;
+}
+
+#parteBajaA2Der article ul li a {
+  color: #e95d3c;
+}
+
+.derBBorder {
+  border-bottom: 1px solid slategray;
 }
 
 footer {
