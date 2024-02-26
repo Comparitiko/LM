@@ -1,21 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 #cuerpoPagina {
-  gap: 30px;
+  gap: 50px;
 }
 
 #cuerpoPagina a {
   flex: 1;
-  color: white;
+  color: black;
+  background-color: #EBEBEB;
   text-decoration: none;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 120px;
+  gap: 100px;
   padding: 10px 30px;
+  width: 20rem;
+  transition: .5s ease-in;
 }
 
-#login a {
+#cuerpoPagina a:hover {
   background-color: #09f;
-}
-
-#register a {
-  background-color: ;
+  color: white;
+  box-sizing: border-box;
 }
