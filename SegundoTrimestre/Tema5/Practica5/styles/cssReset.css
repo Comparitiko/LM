@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #3f3f3f;
+}
+
+main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+#cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4f4f4f;
+  padding: 10px;
+}
+
+#cabecera a {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#cabecera a:hover {
+  color: red;
+  scale: 1.2;
+}
+
+#cuerpoPagina {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#piePagina {
+  background-color: #4f4f4f;
+  padding: 10px;
+}
