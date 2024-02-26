@@ -7,6 +7,15 @@
   color: white;
   text-decoration: none;
   display: flex;
-  gap: 20px;
-  border: 1px solid black;
+  align-items: center;
+  gap: 120px;
+  padding: 10px 30px;
+}
+
+#login a {
+  background-color: #09f;
+}
+
+#register a {
+  background-color: ;
 }
