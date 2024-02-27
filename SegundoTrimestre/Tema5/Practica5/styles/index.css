@@ -17,11 +17,17 @@
   gap: 100px;
   padding: 10px 30px;
   width: 20rem;
-  transition: .5s ease-in;
+  transition: .5s;
 }
 
 #cuerpoPagina a:hover {
   background-color: #09f;
   color: white;
   box-sizing: border-box;
+  box-shadow: 2px 2px 1px 1px black;
+}
+
+#cuerpoPagina a:active {
+  scale: .99;
+  box-shadow: 4px 4px 2px 2px black;
 }
