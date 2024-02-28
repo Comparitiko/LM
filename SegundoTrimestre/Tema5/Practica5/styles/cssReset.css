@@ -48,14 +48,6 @@ p {
   scale: 1.2;
 }
 
-#cuerpoPagina {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #piePagina {
   background-color: #4f4f4f;
   padding: 20px;

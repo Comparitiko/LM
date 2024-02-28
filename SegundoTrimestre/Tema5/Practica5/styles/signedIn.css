@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+#cuerpoPagina {
+  gap: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cuerpoPagina a {
+  flex: 1;
+  color: black;
+  background-color: #EBEBEB;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  padding: 10px 30px;
+  width: 20rem;
+  transition: .5s;
+}
+
+#cuerpoPagina a:hover {
+  background-color: #09f;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 1px 1px black;
+}
+
+#cuerpoPagina a:active {
+  scale: .99;
+  box-shadow: 4px 4px 2px 2px black;
+}

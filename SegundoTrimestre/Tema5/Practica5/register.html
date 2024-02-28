@@ -8,7 +8,7 @@
     content="TaskList app creada por Gabriel Collado Yañez como proyecto para la asignatura de lenguaje de marcas">
   <meta name="author" content="Gabriel Collado Yañez">
   <link rel="stylesheet" href="./styles/cssReset.css">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/register.css">
   <title>TaskList | Gabriel Collado Yanez</title>
 </head>
 
@@ -20,7 +20,14 @@
       </a>
     </header>
     <section id="cuerpoPagina">
-      <p>Registrarse</p>
+      <form action="">
+        <input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre completo">
+        <input type="email" name="email" id="email" required placeholder="Ingresa tu correo electronico">
+        <input type="text" name="usuario" required id="usuario" placeholder="Nombre de usuario">
+        <input type="password" required name="pass" id="pass" placeholder="Contraseña">
+        <input type="password" required name="pass2" id="pass2" placeholder="Repita la contraseña">
+        <a href="./signedIn.html">Registrarse</a>
+      </form>
     </section>
     <footer id="piePagina">
       <p>©️ 2023 Gabriel Collado Yañez</p>
