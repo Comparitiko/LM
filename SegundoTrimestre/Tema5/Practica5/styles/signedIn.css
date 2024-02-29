@@ -21,6 +21,10 @@
 #cuerpoPagina {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #addTask {
@@ -32,6 +36,14 @@
   color: black;
   background-color: white;
   padding: 5px;
+  transition: 1s;
+}
+
+#addTask:hover {
+  background-color: #09f;
+  color: white;
+  scale: .99;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 table {
@@ -52,4 +64,18 @@ td {
 
 .centrado {
   text-align: center;
+}
+
+.editTaskButton {
+  text-decoration: none;
+  width: fit-content;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: slateblue;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.editTaskButton:hover {
+  color: red;
 }

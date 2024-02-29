@@ -16,7 +16,7 @@
   <main>
     <header id="cabecera">
       <section id="titleSect">
-        <a href="./index.html">
+        <a href="./signedIn.html">
           <h1>TaskList</h1>
         </a>
       </section>
@@ -25,13 +25,14 @@
       </figure>
     </header>
     <section id="cuerpoPagina">
-      <a href="./addTask.html" id="addTask">Añadir tarea nueva</a>
+      <a href="./addTask.html" id="addTask" title="Añadir una nueva tarea a la lista">Añadir tarea nueva</a>
       <table>
         <thead>
           <th>ID</th>
           <th>Tarea</th>
           <th>Estado</th>
           <th>Fecha creacion</th>
+          <th>Acciones</th>
         </thead>
         <tbody>
           <tr>
@@ -41,6 +42,9 @@
               <input type="checkbox" name="id1" id="id1">
             </td>
             <td class="centrado">29-02-2024</td>
+            <td class="centrado">
+              <a href="./editTask/1.html" class="editTaskButton">Editar</a>
+            </td>
           </tr>
           <tr>
             <td class="centrado">2</td>
@@ -49,6 +53,9 @@
               <input type="checkbox" name="id2" id="id2">
             </td>
             <td class="centrado">28-02-2024</td>
+            <td class="centrado">
+              <a href="./editTask/2.html" class="editTaskButton">Editar</a>
+            </td>
           </tr>
           <tr>
             <td class="centrado">3</td>
@@ -57,6 +64,9 @@
               <input type="checkbox" name="id3" id="id3" checked>
             </td>
             <td class="centrado">27-02-2024</td>
+            <td class="centrado">
+              <a href="./editTask/3.html" class="editTaskButton">Editar</a>
+            </td>
           </tr>
         </tbody>
       </table>
