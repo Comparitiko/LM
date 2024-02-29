@@ -8,19 +8,58 @@
     content="TaskList app creada por Gabriel Collado Yañez como proyecto para la asignatura de lenguaje de marcas">
   <meta name="author" content="Gabriel Collado Yañez">
   <link rel="stylesheet" href="./styles/cssReset.css">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/signedIn.css">
   <title>TaskList | Gabriel Collado Yanez</title>
 </head>
 
 <body>
   <main>
     <header id="cabecera">
-      <a href="./index.html">
-        <h1>TaskList</h1>
-      </a>
+      <section id="titleSect">
+        <a href="./index.html">
+          <h1>TaskList</h1>
+        </a>
+      </section>
+      <figure>
+        <img width="30px" src="https://github.com/comparitiko.png" alt="Profile picture">
+      </figure>
     </header>
     <section id="cuerpoPagina">
-      <h1>Bienvenido a la aplicación de tareas</h1>
+      <a href="./addTask.html" id="addTask">Añadir tarea nueva</a>
+      <table>
+        <thead>
+          <th>ID</th>
+          <th>Tarea</th>
+          <th>Estado</th>
+          <th>Fecha creacion</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">1</td>
+            <td>Hacer ejercicios lenguaje de marcas</td>
+            <td class="centrado">
+              <input type="checkbox" name="id1" id="id1">
+            </td>
+            <td class="centrado">29-02-2024</td>
+          </tr>
+          <tr>
+            <td class="centrado">2</td>
+            <td>Hacer ejercicios programacion</td>
+            <td class="centrado">
+              <input type="checkbox" name="id2" id="id2">
+            </td>
+            <td class="centrado">28-02-2024</td>
+          </tr>
+          <tr>
+            <td class="centrado">3</td>
+            <td>Hacer ejercicios base de datos</td>
+            <td class="centrado">
+              <input type="checkbox" name="id3" id="id3" checked>
+            </td>
+            <td class="centrado">27-02-2024</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <footer id="piePagina">
       <p>©️ 2023 Gabriel Collado Yañez</p>

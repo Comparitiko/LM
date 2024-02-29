@@ -1,38 +1,55 @@
-* {
-  box-sizing: border-box;
+#cabecera {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #4f4f4f;
+  padding: 20px;
+}
+
+#titleSect {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+#cabecera figure img {
+  border-radius: 100%;
 }
 
 #cuerpoPagina {
-  gap: 50px;
   height: 100%;
+  width: 100%;
+}
+
+#addTask {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#cuerpoPagina a {
-  flex: 1;
-  color: black;
-  background-color: #EBEBEB;
   text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 100px;
-  padding: 10px 30px;
-  width: 20rem;
-  transition: .5s;
+  width: fit-content;
+  color: black;
+  background-color: white;
+  padding: 5px;
 }
 
-#cuerpoPagina a:hover {
-  background-color: #09f;
-  color: white;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 1px 1px black;
+table {
+  margin: 100px auto;
+  width: 70%;
 }
 
-#cuerpoPagina a:active {
-  scale: .99;
-  box-shadow: 4px 4px 2px 2px black;
+table,
+tbody,
+th,
+thead,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #fff9;
+}
+
+.centrado {
+  text-align: center;
 }
