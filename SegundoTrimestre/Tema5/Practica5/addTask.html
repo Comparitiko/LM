@@ -8,22 +8,30 @@
     content="TaskList app creada por Gabriel Collado Yañez como proyecto para la asignatura de lenguaje de marcas">
   <meta name="author" content="Gabriel Collado Yañez">
   <link rel="stylesheet" href="./styles/cssReset.css">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/addTask.css">
   <title>TaskList | Gabriel Collado Yanez</title>
 </head>
 
 <body>
   <main>
     <header id="cabecera">
-      <a href="./signedIn.html">
-        <h1>TaskList</h1>
-      </a>
+      <section id="titleSect">
+        <a href="./signedIn.html">
+          <h1>TaskList</h1>
+        </a>
+      </section>
+      <figure>
+        <img width="30px" src="https://github.com/comparitiko.png" alt="Profile picture">
+      </figure>
     </header>
     <section id="cuerpoPagina">
+      <h1>Agregar una tarea</h1>
       <form action="">
         <input type="text" name="tarea" id="tarea" placeholder="Insertar tarea a realizar" required>
-        <a href="./signedIn.html">Insertar tarea</a>
-        <button type="reset">Borrar</button>
+        <div id="botones">
+          <a href="./signedIn.html">Insertar tarea</a>
+          <button type="reset">Reset</button>
+        </div>
       </form>
     </section>
     <footer id="piePagina">

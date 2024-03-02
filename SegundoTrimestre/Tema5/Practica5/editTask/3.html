@@ -7,20 +7,47 @@
   <meta name="description"
     content="TaskList app creada por Gabriel Collado Yañez como proyecto para la asignatura de lenguaje de marcas">
   <meta name="author" content="Gabriel Collado Yañez">
-  <link rel="stylesheet" href="./styles/cssReset.css">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="../styles/cssReset.css">
+  <link rel="stylesheet" href="../styles/editTask.css">
   <title>TaskList | Gabriel Collado Yanez</title>
 </head>
 
 <body>
   <main>
     <header id="cabecera">
-      <a href="../signedIn.html">
-        <h1>TaskList</h1>
-      </a>
+      <section id="titleSect">
+        <a href="./signedIn.html">
+          <h1>TaskList</h1>
+        </a>
+      </section>
+      <figure>
+        <img width="30px" src="https://github.com/comparitiko.png" alt="Profile picture">
+      </figure>
     </header>
     <section id="cuerpoPagina">
-
+      <h1>Editar tarea</h1>
+      <article id="card">
+        <h2>Tarea a realizar</h2>
+        <div>
+          <h3>Id de la tarea: </h3>
+          <p>3</p>
+        </div>
+        <div>
+          <h3>Nombre de la tarea: </h3>
+          <p>Hacer ejercicios bases de datos</p>
+        </div>
+        <div>
+          <h3>Fecha creación: </h3>
+          <p>27-02-2024</p>
+        </div>
+      </article>
+      <form action="">
+        <input type="text" name="tarea" id="tarea" required>
+        <div id="botones">
+          <a href="../signedIn.html">Editar</a>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
     </section>
     <footer id="piePagina">
       <p>©️ 2023 Gabriel Collado Yañez</p>
