@@ -5,9 +5,11 @@
 }
 
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #ccc;
   min-height: 100dvh;
   width: 100dvw;
+  transition: 1s;
 }
 
 header {
@@ -38,6 +40,9 @@ header {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  animation-name: rotateSunMoon;
+  transition-property: color;
+  animation-duration: .6s;
 }
 
 #sun {
@@ -54,12 +59,14 @@ p {
 
 footer {
   height: fit-content;
+  font-size: 1.2em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
   padding: 10px;
 }
+
+#nombre {}
 
 
 
@@ -67,11 +74,15 @@ footer {
   background-color: #3f3f3f;
 
   & p {
-    color: blue;
+    color: #ccc;
+  }
+
+  & #cabecera {
+    background-color: #5f5f5f;
   }
 
   & #title {
-    color: blue;
+    color: #ccc;
   }
 
   & #sun {
@@ -84,5 +95,11 @@ footer {
 
   & #piePagina {
     background-color: #5f5f5f;
+  }
+}
+
+@keyframes rotateSunMoon {
+  to {
+    rotate: -360deg;
   }
 }
