@@ -1,4 +1,6 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +11,8 @@ body {
   background-color: #ccc;
   min-height: 100dvh;
   width: 100dvw;
-  transition: 1s;
+  transition: 3s;
+  transition-property: background-color, color;
 }
 
 header {
@@ -41,8 +44,7 @@ header {
   height: 30px;
   cursor: pointer;
   animation-name: rotateSunMoon;
-  transition-property: color;
-  animation-duration: .6s;
+  animation-duration: 1s;
 }
 
 #sun {

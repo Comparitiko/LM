@@ -3,8 +3,6 @@ const toggleTheme = document.querySelectorAll('.toggleTheme')
 // Recuperar el tema del localStorage
 let theme = window.localStorage.getItem('theme')
 
-console.log(theme)
-
 // Si no hay un tema en el localStorage ver cual es el tema preferido del usuario en el navegador
 if (!theme) {
   if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
