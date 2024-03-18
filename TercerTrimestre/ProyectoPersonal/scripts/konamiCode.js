@@ -1,6 +1,6 @@
-const audio = document.getElementById('kameha')
+const video = document.querySelector('.video')
 
-const konamiCode = ['k', 'a', 'm', 'e', 'h', 'a']
+const konamiCode = ['k', 'a', 'm', 'e', 'h', 'a', 'm', 'e', 'h', 'a']
 let tryKC = []
 
 document.addEventListener('keydown', (e) => {
@@ -10,12 +10,16 @@ document.addEventListener('keydown', (e) => {
       break
     } else if (tryKC[i] !== konamiCode[i]) {
       tryKC = []
-      console.log('Konami code limpiado, el codigo es: "k a m e h a m e h a"')
+      console.log('Konami code limpiado, el codigo es: "' + konamiCode.join('') + '",')
       break
     }
   }
   if (konamiCode.join('') === tryKC.join('')) {
-    audio.play()
+    video.classList.toggle('playing')
+    video.play()
     tryKC = []
+    video.addEventListener('ended', () => {
+      video.classList.toggle('playing')
+    })
   }
 })

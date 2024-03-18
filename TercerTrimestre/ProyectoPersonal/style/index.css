@@ -11,8 +11,11 @@ body {
   background-color: #ccc;
   min-height: 100dvh;
   width: 100dvw;
-  transition: 3s;
   transition-property: background-color, color;
+}
+
+#container {
+  position: relative;
 }
 
 header {
@@ -55,8 +58,27 @@ header {
   display: none;
 }
 
+.video {
+  width: 100dvw;
+  height: 100dvh;
+  aspect-ratio: 16/9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.playing {
+  display: block;
+}
+
 p {
   color: black;
+}
+
+#mainContainer {
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(200px, 1fr));
 }
 
 footer {
@@ -68,12 +90,15 @@ footer {
   padding: 10px;
 }
 
-#nombre {}
+#nombre {
+  font-size: 1.2em;
+}
 
 
 
 .dark {
   background-color: #3f3f3f;
+  transition-duration: .6s;
 
   & p {
     color: #ccc;

@@ -26,6 +26,7 @@ function setTheme () {
 
 // Funcion para cambiar el tema del navegador
 function changeTheme() {
+  console.log(theme)
   if (theme === 'dark') {
     document.body.classList.add('dark')
   } else {
@@ -42,4 +43,4 @@ toggleTheme.forEach((img) => {
 })
 
 // Al cargar la página, cambiar el tema de la web
-window.onload = changeTheme
+changeTheme()
