@@ -26,7 +26,7 @@ const writeData = async () => {
   getURLPath()
   const data = await fecthURL('https://dragonball-api.com/api/characters')
   let html = ''
-  data.items.map(item =>{
+  data.items.map(item => {
     html += `
       <section class="card">
           <h5 class="card-title">${item.name}</h5>
