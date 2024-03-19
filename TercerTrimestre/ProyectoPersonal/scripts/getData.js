@@ -35,7 +35,7 @@ const writeData = async () => {
       </section>
     `
   })
-  main.innerHTML = `${html}`
+  main.innerHTML = html
 }
 
 writeData()
