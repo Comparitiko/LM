@@ -1,3 +1,5 @@
+import canvasConfetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9/+esm'
+
 const video = document.querySelector('.video')
 
 const konamiCode = ['k', 'a', 'm', 'e', 'h', 'a', 'm', 'e', 'h', 'a']
@@ -16,6 +18,10 @@ document.addEventListener('keydown', (e) => {
   }
   if (konamiCode.join('') === tryKC.join('')) {
     video.classList.toggle('playing')
+    canvasConfetti({
+      spread: 300,
+      gravity: 0.5,
+    })
     video.play()
     tryKC = []
     video.addEventListener('ended', () => {
