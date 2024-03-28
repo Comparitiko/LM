@@ -1,4 +1,5 @@
 const toggleTheme = document.querySelectorAll('.toggleTheme')
+const char_cards = document.querySelectorAll('character-card')
 
 // Recuperar el tema del localStorage
 let theme = window.localStorage.getItem('theme')
@@ -7,15 +8,14 @@ let theme = window.localStorage.getItem('theme')
 if (!theme) {
   if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     theme = 'dark'
-    document.body.classList.add('dark')
   } else {
     theme = 'light'
-    document.body.classList.remove('dark')
   }
   window.localStorage.setItem('theme', theme)
 }
 
-function setTheme () {
+// Funcion para cambiar el tema del localStorage
+function setTheme() {
   if (theme === 'dark') {
     window.localStorage.setItem('theme', 'light')
   } else {
@@ -26,12 +26,12 @@ function setTheme () {
 
 // Funcion para cambiar el tema del navegador
 function changeTheme() {
-  console.log(theme)
   if (theme === 'dark') {
     document.body.classList.add('dark')
   } else {
     document.body.classList.remove('dark')
   }
+  char_cards.forEach((card) => { card.setIsDark(theme === 'dark') })
 }
 
 // Al pulsar cualquier elemento que tenga la clase toggleTheme, cambiar el tema del navegador
@@ -42,5 +42,5 @@ toggleTheme.forEach((img) => {
   })
 })
 
-// Al cargar la página, cambiar el tema de la web
+// Al cargar el script, cambiar el tema de la web
 changeTheme()
