@@ -1,5 +1,4 @@
 const toggleTheme = document.querySelectorAll('.toggleTheme')
-const char_cards = document.querySelectorAll('character-card')
 
 // Recuperar el tema del localStorage
 let theme = window.localStorage.getItem('theme')
@@ -31,7 +30,6 @@ function changeTheme() {
   } else {
     document.body.classList.remove('dark')
   }
-  char_cards.forEach((card) => { card.setIsDark(theme === 'dark') })
 }
 
 // Al pulsar cualquier elemento que tenga la clase toggleTheme, cambiar el tema del navegador
